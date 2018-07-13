@@ -10,7 +10,7 @@ object Publish extends AutoPlugin {
 
   override lazy val projectSettings: Seq[Setting[_]] = Seq(
     bintrayOrganization := Some("firstbird"),
-    bintrayPackage := "backbone",
+    bintrayPackage := "sbt-jooq",
     licenses := Seq(
       "Apache License, Version 2.0" -> url(
         "http://www.apache.org/licenses/LICENSE-2.0.html")
