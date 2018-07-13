@@ -7,5 +7,6 @@ scalacOptions ++= Seq(
 
 libraryDependencies += "org.scala-sbt" %% "scripted-plugin" % sbtVersion.value
 
-addSbtPlugin("org.xerial.sbt" % "sbt-sonatype" % "2.3")
-addSbtPlugin("com.jsuereth" % "sbt-pgp" % "1.1.1")
+//this is custom for the firstbird build to publish to our bintray
+addSbtPlugin("com.dwijnand" % "sbt-dynver" % "3.0.0")
+addSbtPlugin("org.foundweekends" % "sbt-bintray" % "0.5.2")

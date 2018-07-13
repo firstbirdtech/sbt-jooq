@@ -2,7 +2,7 @@ sbtPlugin := true
 
 name := "sbt-jooq"
 description := "jOOQ plugin for SBT 0.13.5+"
-organization := "com.github.kxbmap"
+organization := "com.firstbird"
 
 crossSbtVersions := Seq("1.1.6", "0.13.17")
 
