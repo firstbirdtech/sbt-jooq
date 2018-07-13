@@ -6,7 +6,6 @@ import sbt._
 object Publish extends AutoPlugin {
 
   override def requires: Plugins = BintrayPlugin
-
   override def trigger: PluginTrigger = allRequirements
 
   override lazy val projectSettings: Seq[Setting[_]] = Seq(
